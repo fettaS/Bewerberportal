@@ -5,10 +5,23 @@
 .vscode/launch.json
 .vscode/extensions.json
 
-### VisualStudioCode Patch ###
 # Ignore all local history of files
 **/.history!/.vscode/
 /.vscode/
 /.idea/
 .history/
 mongo_data/
+
+# frontend
+frontend/dist/
+frontend/node_modules/
+frontend/.DS_Store
+# local env files
+frontend/.env.local
+frontend/.env.*.local
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
